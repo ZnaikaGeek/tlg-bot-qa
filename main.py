@@ -9,7 +9,7 @@ import json
 initialize_app()
 db = firestore.client()
 
-TELEGRAM_BOT_TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"  # Получить от @BotFather
+TELEGRAM_BOT_TOKEN = "7958472025:AAEFxUca6CJSskSePOYFHOluLQ1yKaJTqWg"  # Получить от @BotFather
 TELEGRAM_API = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
 @functions_framework.http
